@@ -87,7 +87,6 @@ class ViewController: UIViewController {
     
     func rotation(time: TimeInterval) -> SCNAction {
         let rot = SCNAction.rotateBy(x: 0, y: CGFloat(360.d2R), z: 0, duration: time)
-
         return SCNAction.repeatForever(rot)
         
     }
